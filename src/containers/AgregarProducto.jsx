@@ -18,8 +18,8 @@ const handleSubmit=(e)=>{
         postProducto(producto)
       }
   }
-  
-
+  //despliegue en firebase
+//https://www.youtube.com/watch?v=QNMVURtx86c&ab_channel=ProCodeTv
   
   const AgregarProducto = () => {
   

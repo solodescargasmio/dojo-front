@@ -1,5 +1,5 @@
 const deleteProducto=(id)=> {
-    fetch(`http://localhost:8080/producto/${id}`, {
+    fetch(`https://ec2-3-234-141-85.compute-1.amazonaws.com/producto/${id}`, {
     method: 'DELETE',
     mode: 'cors',
     headers:{

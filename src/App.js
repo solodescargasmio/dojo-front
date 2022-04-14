@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import AgregarProducto from './containers/AgregarProducto';
+import Ruta from './route';
 
 function App() {
   return (
     <div className="App">
-      <AgregarProducto />
+      <Ruta />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 const postProducto = (producto) => {
   console.log(producto)
-    fetch(`http://localhost:8080/producto`,{
+    fetch(`https://ec2-3-234-141-85.compute-1.amazonaws.com/producto`,{
         method:'POST',
         mode: 'cors',
         credentials: 'same-origin', 
@@ -24,7 +24,7 @@ const postProducto = (producto) => {
 
 const putProducto=(producto)=>{
 
-fetch(`http://localhost:8080/producto/${producto.id}`,{
+fetch(`https://localhost:8080/producto/${producto.id}`,{
     method:'PUT',
     mode: 'cors',
     headers:{
